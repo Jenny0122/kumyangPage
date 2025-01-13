@@ -1,0 +1,13 @@
+@charset "utf-8";
+
+/* 자동완성 전체 지정*/
+.ark_wrap {position:relative; width:353px; border:1px solid #aaaaaa; background-color:#f3f3f3; display:none;}
+.ark_wrap ul {margin:0; padding:0;}
+.ark_wrap li {margin:0; padding:0; list-style:none;}
+.ark_wrap .ark_content {border-bottom:1px solid #aaaaaa; background-color:#FFF; overflow-x:hidden; overflow-y:auto;}
+.ark_wrap .ark_content li {color:#777777; width:100%; padding:3px 5px; margin:1px; list-style:none; font-size:12px;}
+.ark_wrap .ark_content li strong {color:#EA8D07; font-weight:bold;}
+.ark_wrap .ark_footer {position:relative; font-size:11px; height:26px; text-align:center; background-color:#f3f3f3;}
+.ark_wrap .ark_footer a {color:#666666; text-decoration:none;}
+.ark_wrap .ark_footer .left {float:left;}
+.ark_wrap .ark_footer .right {float:right;}

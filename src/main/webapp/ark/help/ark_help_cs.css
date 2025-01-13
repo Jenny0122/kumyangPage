@@ -1,0 +1,32 @@
+@charset "euc-kr";
+/* CSS Document */
+
+BODY{margin:10px 0 0 0;}
+
+TD{font-family:"±¼¸²";Font-size:12px;}
+
+#ark_top{margin:0 auto;}
+
+#bk_img{background-image:url(images/ark_top_bg.gif);}
+
+
+
+#left_menu{  width:150px;}
+u{font-weight:bold; color:#FF3300}
+b{color:#FF3300}
+.copy{ font-family:dotum; font-size:11px; color:#e2e2e2; padding-right:10px}
+
+.mli {padding-left:10px;color:#FFFFFF; text-align:left;}
+.mli a:link{ color:#FFFFFF; text-align:left; text-decoration:none;}
+.mli a:hover{ color:#FFFFFF; text-align:left; text-decoration:none}
+.mli a:visited{ color:#FFFFFF; text-align:left;text-decoration:none}
+.mli a:activ{ color:#FFFFFF; text-align:left;text-decoration:none}
+
+
+#con{ position:absolute;width:500px;background-image:url(images/ark-_con_bg.gif); margin-left:5px; float:left}
+
+#img1{left:0; position:absolute;}
+#img2{right:-500px; position:relative}
+
+
+

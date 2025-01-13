@@ -1,0 +1,85 @@
+@charset "utf-8";
+/* CSS Document */
+
+BODY{margin:50px;}
+
+TD{font-family:"굴림";Font-size:12px;}
+
+#bk_img{ position:relative ;background-image:url(../img/ark_top_bg.gif);height:52px; width:691px; MARGIN:auto}
+
+#search{ position:relative;margin-top:10px; margin:auto;width:691px;background-image:url(../img/ark_search_bg.gif); height:107px;}
+
+#search_form{ position:relative;top:10px;}
+
+#search_form2{width:350px;height:20px}
+
+#d_icon { position:relative; FLOAT:right;top:-12px; right:3px;	width:23px;	height:22px;}
+
+#end{float:left;padding-top:5px; font-family:dotum; font-size:11px;}
+
+#end a:link{color:#666666; text-decoration:none; text-decoration:none}
+
+#end a:hover{color:#666666;text-decoration:none;}
+
+#end a:visited{color:#666666;text-decoration:none;}
+
+#opt{padding-top:5px;font-family:dotum; font-size:11px; color:#999999;text-align:right;}
+
+#opt a:link{color:#666666;text-decoration:none;}
+#opt a:hover{color:#666666;}
+#opt a:visited{color:#666666;text-decoration:none;}
+
+#gen{font-family:dotum;Font-size:11px; color:#999999;}
+
+#FC1{color:#FF6600;}
+
+#BL{ border:1px; border-style:solid; border-color:#CCCCCC;}
+#gray_back:hover{background-color:#ededed;}
+
+#dot{background-image:url(../img/ark_dog_bg.gif); height:3px; width:100%}
+#dot1{background-image:url(../img/ark_dog_bg.gif); height:3px; float:left;margin-top:0px}
+#dot2{background-image:url(../img/ark_dog_bg.gif); height:3px; float:right}
+
+.bred {color:#CC0335; font-weight:bold;}
+/* 검색 페이지 스타일 */
+
+/* #SearchForm div 스타일을 조절한다. border를 1로 하면 화면에 보임 */
+#SearchForm{
+	width:480px;
+	height:91px;
+	position:relative;
+	border:0px solid #7F9DB9;
+}
+
+/* 검색박스 div 스타일을 조절한다. border를 1로 하면 화면에 보임 */
+#Searchbox{
+	position:absolute;
+	left:0px;
+	top:20px;
+	width:480px;
+	border:0px solid #7F9DB9;
+}
+
+/* 검색박스 스타일 조절 */
+#Searchbox #Input{padding:0px 0 0px 0px;font-size:12px;}
+
+#Searchbox .searchbtn{vertical-align:middle;}
+#Searchbox select{padding-left:10px;font-size:12px;}
+#Searchbox .btn{padding-right:60px;float:right;}
+#Searchbox input.inputbox{
+	width:351px;
+	height:17px;
+	font-size:12px;
+	padding-right:0px;
+	border:1px solid #7F9DB9;
+}
+
+:first-child+html #Searchbox input.inputbox { padding-right:3px; }
+
+/* 검색버튼 스타일 */
+#Searchbox .searchbtn{vertical-align:top;}
+
+/* 검색 키워드 입력 박스 스타일 */
+#Searchbox span{color:#fff;font-size:12px;}
+
+.clear{clear:both;}

@@ -1,0 +1,64 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<title>ARK v4.0</title>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8" >
+	<meta name="autocomplete" content="off" >
+	<link rel="stylesheet" type="text/css" href="./css/ark.css" media="screen" >
+	<link rel="stylesheet" type="text/css" href="./css/sample.css" >
+	<script type="text/javascript" src="./js/jquery-1.6.2.min.js" ></script>
+	<script type="text/javascript" src="./js/beta.fix.js" ></script>
+	<script type="text/javascript" src="./js/ark.js" ></script>
+</head>
+
+<body>
+	<table width="691" height="460" border="0" align="center">
+		<tr>
+			<td valign="top">
+				<div id="bk_img">
+					<table width="691" height="52" border="0" align="center" cellpadding="0" cellspacing="0" >
+						<tr>
+							<td width="83" height="52"><img src="img/ark_top_logo.gif" width="83" height="52" /></td>
+							<td height="52"><span id="gen">Auto Recommend Keyword</span></td>
+							<td width="197" height="52" align="right"><img src="img/ark_top_title.gif" width="197" height="52" /></td>
+						</tr>
+					</table>
+				</div>
+				<div id="search">
+					<table width="691" border="0" align="center" cellpadding="0" cellspacing="0">
+						<tr>
+							<td width="120">
+							<img src="img/ark_search_01.gif" width="30" height="107" /></td>
+							<td align="left" >
+								<table border="0" cellspacing="0" cellpadding="0">
+									<tr>
+										<td width="25"><img src="img/ark_search_img01.gif" width="17" height="24" /></td>
+										<td>
+										<!-- search suggest -->
+										<div id="SearchForm">
+											<div id="Searchbox">
+												<div id="search_form">
+													<form name="search" action="./search.html" method="post">
+													<!-- Query Input BOX -->
+													<input type="text" name="query" id="query" class="inputbox" value="" tabindex="1" />
+													<span class="btn"><img src="img/ark_search_btn.gif" width="52" height="22" align="absmiddle"/></span>
+													<!-- ARK search suggest -->
+													<div id="ark"></div>
+													</form>
+												</div>
+											</div><!-- //Searchbox -->
+										</div><!-- //SearchForm -->
+										<!--END search suggest -->
+										</td>
+									</tr>
+								</table>
+							</td>
+							<td width="32"><img src="img/ark_search_02.gif" width="32" height="107" /></td>
+						</tr>
+					</table>
+				</div>
+			</td>
+		</tr>
+	</table>
+</body>
+</html>

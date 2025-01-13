@@ -1,0 +1,68 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 400;
+    src: url("../font/NotoSansKR-Regular.woff2") format("woff2"),
+        url("../font/NotoSansKR-Regular.woff") format("woff"),
+        url("../font/NotoSansKR-Regular.otf") format("opentype");
+}
+
+@font-face {
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 500;
+    src: url("../font/NotoSansKR-Medium.woff2") format("woff2"),
+        url("../font/NotoSansKR-Medium.woff") format("woff"),
+        url("../font/NotoSansKR-Medium.otf") format("opentype");
+}
+
+@font-face {
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 700;
+    src: url("../font/NotoSansKR-Bold.woff2") format("woff2"),
+        url("../font/NotoSansKR-Bold.woff") format("woff"),
+        url("../font/NotoSansKR-Bold.otf") format("opentype");
+}
+html{height:100%}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,textarea,p,blockquote,th,td,input,select,textarea,button{margin:0;padding:0}
+footer,header,main,nav,section{display:block}
+dl,ul,ol,li{list-style:none}
+input,select,textarea{border:0;border-radius:0;vertical-align:middle}
+fieldset,img,button{border:0 none}
+img{vertical-align:top}
+button{border:0 none;background-color:transparent;cursor:pointer}
+button::-moz-focus-inner,input::-moz-focus-inner{padding:0;border:0}
+button[disabled],html input[disabled]{cursor:default}
+address,caption,em{font-style:normal;font-weight:normal}
+table{border:0;border-collapse:collapse}
+body{height:100%;background-color:#fff;}
+body.no_result{-ms-overflow-y:hidden;}
+body,th,td,input,select,textarea,button{font-family:'Noto Sans KR','돋움','dotum','Helvetica',sans-serif;font-size:14px;line-height:1;color:#282828;}
+a{color:#000;text-decoration:none;cursor:pointer}
+a:focus,a:active,a:hover,a:focus{text-decoration:none}
+mark{background-color:transparent}
+
+input[type=radio] + label,input[type=checkbox] + label {display:inline-block;vertical-align:middle;}
+input[type=radio],input[type=checkbox] {position:absolute;border:0;clip:rect(0 0 0 0);width:1px;height:1px;margin:-1px;overflow:hidden;padding:0;}
+input[type=text]::-ms-clear {display:none;}
+
+/* placeholder 컬러 변경 */
+input::-webkit-input-placeholder{color:#282828;}/* chrome, Edge */
+input:-moz-placeholder{color:#282828;}/* firefox 4 t0 18 */
+input::-moz-placeholder{color:#282828;}/* firefox 19+ */
+input:-ms-input-placeholder{color:#282828;}/* IE 10, 11 */
+input::-ms-input-placeholder{color:#282828;}/* Edge */
+input::placeholder{color:#282828;opacity:1}/* opacity - 파이어폭스에서 뿌옇게 나오는 현상 방지*/
+/* 포커스 시 placeholder 숨기기 - 필요에 따라 사용 */
+input:focus::-webkit-input-placeholder{color:transparent}
+input:focus:-moz-placeholder{color:transparent}
+input:focus::-moz-placeholder{color:transparent}
+input:focus:-ms-input-placeholder{color:transparent}
+input:focus::-ms-input-placeholder{color:transparent}
+input:focus::placeholder{color:transparent}
+
+.ico_comm{overflow:hidden;display:inline-block;background-repeat:no-repeat;vertical-align:top;text-indent:-9999px}
+.screen_out{overflow:hidden;position:absolute;width:1px;height:1px;margin:-1px;padding:0;border:0;line-height:0;white-space:normal;word-wrap:break-word;word-break:break-all;clip:rect(0,0,0,0)}
